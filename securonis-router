@@ -1,0 +1,23 @@
+# Defaults for Securonis Router script
+# sourced by /usr/sbin/i2p-mode
+# The UID under which I2P runs
+I2P_UID="i2p"
+
+# I2P ports
+TRANS_PORT="4444"
+DNS_PORT="5354"
+VIRT_ADDR="10.192.0.0/10"
+
+# Non-I2P destinations
+NON_I2P="127.0.0.0/8 10.0.0.0/8 172.16.0.0/12 192.168.0.0/16"
+RESV_IANA="0.0.0.0/8 100.64.0.0/10 169.254.0.0/16 192.0.0.0/24 192.0.2.0/24 192.88.99.0/24 198.18.0.0/15 198.51.100.0/24 203.0.113.0/24 224.0.0.0/3"
+
+# Processes to kill
+TO_KILL="chrome dropbox firefox pidgin skype thunderbird hexchat discord zoom slack"
+
+# BleachBit cleaners
+BLEACHBIT_CLEANERS="bash.history system.cache system.clipboard system.custom system.recent_documents system.rotated_logs system.tmp system.trash"
+OVERWRITE="true"
+
+# Real hostname
+REAL_HOSTNAME="securonis"
